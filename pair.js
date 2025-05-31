@@ -96,7 +96,7 @@ router.get('/', async (req, res) => {
 
             let code = await sock.sendMessage(sock.user.id, { text: md });
 
-            let desc = `*Hello there ! 👋* 
+            let desc = `*Yooh radarada mkuu ! * 
 
 > Do not share your session id with anyone.
 
@@ -104,11 +104,11 @@ router.get('/', async (req, res) => {
 
 > Join WhatsApp Channel :- ⤵️
 
-https://whatsapp.com/channel/0029VarDt9t30LKL1SoYXy26
+https://whatsapp.com/channel/0029VbAVuiVBPzjdU7EVNw0t
 
 Don't forget to fork the repo ⬇️
 
-https://github.com/sigmatech-official/SIGMA-MD
+https://github.com/YAMAL-YENG/SIGMA-MD
 
 > *© Powered by SIGMATECH*
 `;
@@ -118,7 +118,7 @@ https://github.com/sigmatech-official/SIGMA-MD
                 externalAdReply: {
                   title: "𝚂𝙸𝙶𝙼𝙰-𝙼𝙳",
                   thumbnailUrl: "",
-                  sourceUrl: "https://whatsapp.com/channel/0029VarDt9t30LKL1SoYXy26",
+                  sourceUrl: "https://whatsapp.com/channel/0029VbAVuiVBPzjdU7EVNw0t",
                   mediaType: 1,
                   renderLargerThumbnail: true
                 }
@@ -127,7 +127,7 @@ https://github.com/sigmatech-official/SIGMA-MD
 
           } catch (e) {
             let ddd = sock.sendMessage(sock.user.id, { text: e });
-            let desc = `*Don't Share with anyone this code use for deploying SIGMA-MD*\n\n ◦ *Github:* https://github.com/sigmatech-official/SIGMA-MD`;
+            let desc = `*Don't Share with anyone this code use for deploying SIGMA-MD*\n\n ◦ *Github:* https://github.com/YAMAL-YENG/SIGMA-MD`;
 
             await sock.sendMessage(sock.user.id, {
               text: desc,
@@ -135,7 +135,7 @@ https://github.com/sigmatech-official/SIGMA-MD
                 externalAdReply: {
                   title: "SIGMA-MD",
                   thumbnailUrl: "https://files.catbox.moe/mg79db.jpg",
-                  sourceUrl: "https://whatsapp.com/channel/0029VarDt9t30LKL1SoYXy26",
+                  sourceUrl: "https://whatsapp.com/channel/0029VbAVuiVBPzjdU7EVNw0t",
                   mediaType: 2,
                   renderLargerThumbnail: true,
                   showAdAttribution: true
